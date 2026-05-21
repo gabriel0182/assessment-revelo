@@ -1,0 +1,10 @@
+{
+  "firstName": "Test",
+  "lastName": "Test",
+  "email": "hello@cypress.io",
+  "mobile": "3234567895",
+  "subject": "Arts",
+  "currentAddress": "Test Av",
+  "state": "NCR",
+  "city": "Noida"
+}
