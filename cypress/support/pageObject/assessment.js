@@ -55,6 +55,12 @@ class assessment {
         })
     }
 
+    static checkRequiredFields() {
+     cy.get('input#firstName').should('have.css','border-color','rgb(220, 53, 69)')   
+     cy.get('input#lastName').should('have.css','border-color','rgb(220, 53, 69)')
+     cy.get('input#userNumber').should('have.css','border-color','rgb(220, 53, 69)')
+    }
+
 }
 
 export default assessment

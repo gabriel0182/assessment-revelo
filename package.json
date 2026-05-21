@@ -1,8 +1,10 @@
 {
   "devDependencies": {
-    "cypress": "^15.15.0"
+    "cypress": "^15.15.0",
+    "cypress-repeat": "^2.3.10"
   },
   "scripts": {
+    "repeat_test": "npx cypress-repeat run --browser electron --headless -n 5 ",
     "cypress-run-dashboard": "npx cypress run --browser electron --record --key a560c315-a9ab-4ed2-a51f-4427f3cb0c09"
   }
 }

@@ -1,6 +1,6 @@
 import assessment from "../support/pageObject/assessment"
 
-describe('Fill out the registration form and verify the submitted info', () => {
+describe('Check the required field on the Practice Form', () => {
 	before(() => {
 		cy.visit('/')
 	})
@@ -13,10 +13,8 @@ describe('Fill out the registration form and verify the submitted info', () => {
 		
 	})
 
-	it('I fill out and send the Form ', () => {
-	    assessment.fillOutPracticeForm()
-		assessment.clickOnSubmitButton()
-		assessment.verifySubmittedForm()
-		assessment.veriFySavedInfo()	
+	it('I click on the submit button without filling any field', () => {
+		assessment.clickOnSubmitButton()	
+        assessment.checkRequiredFields()
 	})
 })
