@@ -108,6 +108,10 @@ npm run repeat_test cypress/e2e/test.spec.js
 
 This will run the test 5 times in a row.
 
+Or if you want to perform with the Cypress test with the dashboard results:
+
+npm run cypress-run-dashboard
+
 ## Git flow
 
 When you are going to create a new feature test, be sure to create a new branch, but before creating the new branch, pull your local `master` branch so that it is up to date with respect to the remote main branch.
