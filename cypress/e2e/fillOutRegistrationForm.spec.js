@@ -14,7 +14,7 @@ describe('Fill out the registration form and verify the submitted info', () => {
 	})
 
 	it('I fill out and send the Form ', () => {
-		assessment.fillOutPracticeForm()
+	    assessment.fillOutPracticeForm()
 		assessment.clickOnSubmitButton()
 		assessment.verifySubmittedForm()
 		assessment.veriFySavedInfo()	
